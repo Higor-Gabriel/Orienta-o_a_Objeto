@@ -1,11 +1,13 @@
 import random
 
-def jogar_forca():
-
+def abertura_jogo():
     print("*********************************")
     print("Bem vindo ao jogo de Forca")
     print("*********************************")
 
+def jogar_forca():
+
+    abertura_jogo()
     arquivo = open("palavras.txt", "r")
     palavras = []
     for linha in arquivo:
