@@ -158,6 +158,5 @@ def desenha_forca(erros):
     print()
 
 
-
 if __name__ == "__main__":
     jogar_forca()
